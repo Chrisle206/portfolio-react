@@ -3,22 +3,55 @@ import React from 'react';
 export default function Blog() {
   return (
     <div>
-      <h1>Blog Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+      <h1>Project Page</h1>
+      <div class="grid d-flex flex-wrap" id='work'>
+                <div>
+                <section><h3>Project1: Anime Search Engine</h3>
+                <a href="https://github.com/UWHuskie/Project-AnimeSE">Github-repo: Project-AnimeSE</a>
+                <a href="https://uwhuskie.github.io/Project-AnimeSE/">Website: Project-AnimeSE/</a></section>
+                <section><h3>Project2: Ponder Social Media Platform</h3>
+                    <a href="https://github.com/Chrisle206/ponder">Github-repo: Ponder</a>
+                    <a href="https://pacific-ravine-12135.herokuapp.com/">Website: Ponder</a></section>
+                </div>
+                <div class="g-col-6 p-2">
+                    <figure class="card">
+                        <img src="./assets/images/computer.jpg" alt=""></img>
+                        <section class="small-card">
+                            <h3>Surf Report</h3>
+                            <p>Mern Stack</p>
+                        </section>
+                    </figure>
+                </div>
+
+                <div class="g-col-6 p-2">
+                    <figure class="card">
+                        <img src="./assets/images/bigstock.jpg" alt=""></img>
+                        <section class="small-card">
+                            <h3>LED Wall</h3>
+                            <p>node/Iot</p>
+                        </section>
+                    </figure>
+                </div>
+
+                <div class="g-col-6 p-2">
+                    <figure class="card">
+                        <img src="./assets/images/earth.jpg" alt=""></img>
+                        <section class="small-card">
+                            <h3>Calculator</h3>
+                            <p>React/JavaScript/CSS</p>
+                        </section>
+                    </figure>
+                </div>
+                <div class="g-col-6 p-2">
+                    <figure class="card">
+                        <img src="./assets/images/stock.jpg" alt=""></img>
+                        <section class="small-card">
+                            <h3>Pastel Puzzel</h3>
+                            <p>Mern Stack</p>
+                        </section>
+                    </figure>
+                </div>
+            </div>
     </div>
   );
 }

@@ -1,17 +1,20 @@
 import React from 'react';
 
 export default function About() {
-  return (
-    <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
-    </div>
-  );
+    return (
+        <div>
+            <h1>About Page</h1>
+            <p>
+                Pokem ipsum dolor sit amet Archeops Qwilfish Banette Houndour The Power Of One Running Shoes.
+                Blue Linoone Regigigas Vileplume Carracosta Ash Swalot. Sinnoh Slowpoke Exeggcute Lickilicky
+                Altaria Muk Rampardos. Pokemon Heroes Ponyta Lopunny Kabutops Shaymin Venonat Sewaddle. Pika-pi
+                Thundershock Lanturn Lugia Pachirisu Trubbish Thundershock.
+
+                Leaf Green Zorua Mienshao Caterpie Leaf Green Slaking Celebi. Charizard Tornadus Pikachu
+                Porygon2 Bronzong Ekans Pidgey. Qui officia deserunt mollit Treecko Toxicroak Pichu Klink
+                Flaaffy Finneon. Vine Whip Cleffa Cacturne Virizion Wartortle Froslass Rhyhorn. Wing Attack
+                Paras Eevee Pelipper Dewott Steel surrender now or prepare to fight.
+            </p>
+        </div>
+    );
 }
