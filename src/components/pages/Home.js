@@ -1,6 +1,7 @@
 import React from 'react';
 
 export default function Home() {
+  document.title = 'Chris\' Portfolio';
   return (
     <><header> <div class="jumbotron jumbotron-fluid custom-jumbotron">
       <div class="container">
