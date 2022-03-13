@@ -25,6 +25,8 @@ Display my Portfolio for all to see!
 
 Here are some screenshots showcasing how our application looks on the live site:
 ![image](https://user-images.githubusercontent.com/89957990/156710990-426c86f6-2b8f-4e85-92e4-69ba3764d317.png)
+  ![image](https://user-images.githubusercontent.com/89957990/158039709-92aaf8a3-a5f7-4b9b-8643-4cb024ae710c.png)
+
 ![image](https://user-images.githubusercontent.com/89957990/156711021-866a8bac-6c48-45b9-b1e5-04fb9e3da562.png)
 
 
